@@ -61,7 +61,10 @@
           "width": 0.1524
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|62365001|173240250|1200802b-8375-46e3-9e38-a7ba83b57bd6|780af0df-7182-4740-899d-135e7571518c",
+        "courtyards_overlap|71464999|174815875|780af0df-7182-4740-899d-135e7571518c|b020fc63-bc15-4402-a78c-353a4de52bdb"
+      ],
       "meta": {
         "version": 2
       },
@@ -408,7 +411,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
