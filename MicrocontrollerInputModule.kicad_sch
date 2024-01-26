@@ -3327,7 +3327,7 @@
   (symbol (lib_id "Device:R_US") (at 120.65 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 053924b9-8e92-4e17-ba32-3e37635f769c)
-    (property "Reference" "R6" (at 118.11 72.39 90)
+    (property "Reference" "R5" (at 118.11 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 123.19 72.39 90)
@@ -3344,7 +3344,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3353,7 +3353,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 53.34 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d59877e-9a3d-48a1-b506-0a8d956fe5fa)
-    (property "Reference" "TP1" (at 46.99 109.22 90)
+    (property "Reference" "TP2" (at 46.99 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3V3" (at 39.37 109.22 90)
@@ -3369,7 +3369,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "TP1") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -3378,7 +3378,7 @@
   (symbol (lib_id "Device:C") (at 92.71 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e45b3d1-0c22-4564-9b27-a5bbbe3889b2)
-    (property "Reference" "C1" (at 90.17 101.6 90)
+    (property "Reference" "C2" (at 90.17 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15pF" (at 96.52 101.6 90)
@@ -3395,7 +3395,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3436,7 +3436,7 @@
   (symbol (lib_id "power:+3V3") (at 132.08 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 128f431f-f956-46f7-b58e-0c472e879c0a)
-    (property "Reference" "#PWR024" (at 132.08 167.64 0)
+    (property "Reference" "#PWR018" (at 132.08 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 132.08 158.75 0)
@@ -3452,7 +3452,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3461,7 +3461,7 @@
   (symbol (lib_id "power:+5V") (at 121.92 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 129609ca-21b8-4721-8a84-ae1aa281d9c0)
-    (property "Reference" "#PWR022" (at 121.92 167.64 0)
+    (property "Reference" "#PWR015" (at 121.92 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 121.92 158.75 0)
@@ -3477,7 +3477,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3486,7 +3486,7 @@
   (symbol (lib_id "Device:C") (at 227.33 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18ee1350-dafa-4dce-a2bc-36a905fcbca8)
-    (property "Reference" "C20" (at 231.14 38.1 90)
+    (property "Reference" "C15" (at 231.14 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 231.14 40.64 90)
@@ -3503,7 +3503,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C20") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3512,7 +3512,7 @@
   (symbol (lib_id "power:GND") (at 60.96 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a14fbb2-8a26-4206-909d-8048817f6aa5)
-    (property "Reference" "#PWR017" (at 60.96 128.27 0)
+    (property "Reference" "#PWR06" (at 60.96 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 127 0)
@@ -3528,7 +3528,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3537,7 +3537,7 @@
   (symbol (lib_id "power:GND") (at 106.68 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b7383fe-5fe8-473f-828f-667c6edc5e81)
-    (property "Reference" "#PWR021" (at 106.68 191.77 0)
+    (property "Reference" "#PWR013" (at 106.68 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 190.5 0)
@@ -3553,7 +3553,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3562,7 +3562,7 @@
   (symbol (lib_id "power:GND") (at 222.25 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2162afbf-aff5-4875-9e1a-a38a13f086bf)
-    (property "Reference" "#PWR07" (at 222.25 107.95 0)
+    (property "Reference" "#PWR027" (at 222.25 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 106.68 0)
@@ -3578,7 +3578,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3587,7 +3587,7 @@
   (symbol (lib_id "power:+3V3") (at 66.04 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21cd82d7-18b8-4883-837c-86bd614647f5)
-    (property "Reference" "#PWR04" (at 66.04 35.56 0)
+    (property "Reference" "#PWR07" (at 66.04 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 66.04 26.67 0)
@@ -3603,7 +3603,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3612,7 +3612,7 @@
   (symbol (lib_id "power:GND") (at 234.95 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 258fe1cb-d3f6-42ea-adb8-d569e789af45)
-    (property "Reference" "#PWR033" (at 234.95 49.53 0)
+    (property "Reference" "#PWR028" (at 234.95 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 48.26 0)
@@ -3628,7 +3628,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3663,7 +3663,7 @@
   (symbol (lib_id "power:GND") (at 120.65 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29d03c70-3f96-4ea8-8391-8d08585a7b98)
-    (property "Reference" "#PWR08" (at 120.65 54.61 0)
+    (property "Reference" "#PWR014" (at 120.65 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 53.34 0)
@@ -3679,7 +3679,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3688,7 +3688,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 53.34 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ae6e72f-291d-42ee-a7ce-79a597460121)
-    (property "Reference" "TP3" (at 46.99 114.3 90)
+    (property "Reference" "TP4" (at 46.99 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWD" (at 39.37 114.3 90)
@@ -3704,7 +3704,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "TP3") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -3713,7 +3713,7 @@
   (symbol (lib_id "power:GND") (at 57.15 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f3d74ac-d1e0-424a-b1a0-f7d97494a24a)
-    (property "Reference" "#PWR03" (at 57.15 83.82 0)
+    (property "Reference" "#PWR04" (at 57.15 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 82.55 0)
@@ -3729,7 +3729,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3738,7 +3738,7 @@
   (symbol (lib_id "power:+3V3") (at 48.26 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fdef51b-30b1-4d5a-b450-14e76c443cec)
-    (property "Reference" "#PWR015" (at 48.26 152.4 0)
+    (property "Reference" "#PWR03" (at 48.26 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 48.26 143.51 0)
@@ -3754,7 +3754,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3787,7 +3787,7 @@
   (symbol (lib_id "power:+3V3") (at 60.96 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3332006c-f54f-408d-8d99-ac142be1cffb)
-    (property "Reference" "#PWR016" (at 60.96 107.95 0)
+    (property "Reference" "#PWR05" (at 60.96 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 60.96 99.06 0)
@@ -3803,7 +3803,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3812,7 +3812,7 @@
   (symbol (lib_id "power:+3V3") (at 157.48 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 345bd63e-911e-4428-af60-252af60f00f5)
-    (property "Reference" "#PWR0102" (at 157.48 180.34 0)
+    (property "Reference" "#PWR021" (at 157.48 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 157.48 171.45 0)
@@ -3828,7 +3828,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3918,7 +3918,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 147.32 179.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cac9563-b274-4373-9299-20b99c9d539b)
-    (property "Reference" "#FLG0103" (at 147.32 180.975 0)
+    (property "Reference" "#FLG01" (at 147.32 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 147.32 184.15 0)
@@ -3934,7 +3934,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#FLG0103") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -3943,7 +3943,7 @@
   (symbol (lib_id "power:GND") (at 167.64 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e8f78ec-c968-4d3e-b544-75859b423e12)
-    (property "Reference" "#PWR0103" (at 167.64 185.42 0)
+    (property "Reference" "#PWR022" (at 167.64 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 184.15 0)
@@ -3959,7 +3959,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3968,7 +3968,7 @@
   (symbol (lib_id "power:GND") (at 237.49 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fc5584c-d697-402c-a7ba-708be7f1b637)
-    (property "Reference" "#PWR026" (at 237.49 125.73 0)
+    (property "Reference" "#PWR029" (at 237.49 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 124.46 0)
@@ -3984,7 +3984,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3993,7 +3993,7 @@
   (symbol (lib_id "power:+3V3") (at 252.73 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42c9fbec-671f-4516-9770-098ba89f8f43)
-    (property "Reference" "#PWR06" (at 252.73 105.41 0)
+    (property "Reference" "#PWR034" (at 252.73 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 252.73 96.52 0)
@@ -4009,7 +4009,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4018,7 +4018,7 @@
   (symbol (lib_id "power:+5V") (at 247.65 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44bf858e-3ee5-48d0-9d4b-97dfee71ec04)
-    (property "Reference" "#PWR028" (at 247.65 135.89 0)
+    (property "Reference" "#PWR033" (at 247.65 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 247.65 127 0)
@@ -4034,7 +4034,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4043,7 +4043,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 157.48 179.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47766976-abf5-49ff-98b5-9e3bd8c2156c)
-    (property "Reference" "#FLG0101" (at 157.48 180.975 0)
+    (property "Reference" "#FLG02" (at 157.48 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 157.48 184.15 0)
@@ -4059,7 +4059,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#FLG0101") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -4068,7 +4068,7 @@
   (symbol (lib_id "Device:R_US") (at 120.65 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c20f8d5-3986-44e5-9bfd-359d654c1f48)
-    (property "Reference" "R5" (at 118.11 64.77 90)
+    (property "Reference" "R4" (at 118.11 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27" (at 123.19 64.77 90)
@@ -4085,7 +4085,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4094,7 +4094,7 @@
   (symbol (lib_id "power:+3V3") (at 172.72 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d8fec90-cb7f-4adc-a2d1-fd1622c98c3f)
-    (property "Reference" "#PWR011" (at 172.72 26.67 0)
+    (property "Reference" "#PWR023" (at 172.72 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 172.72 17.78 0)
@@ -4110,7 +4110,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4119,7 +4119,7 @@
   (symbol (lib_id "power:+5V") (at 81.28 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56a96d30-c970-45a7-9324-5a155b7c54a9)
-    (property "Reference" "#PWR019" (at 81.28 152.4 0)
+    (property "Reference" "#PWR010" (at 81.28 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 81.28 143.51 0)
@@ -4135,7 +4135,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4144,7 +4144,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 24.13 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d83b48e-b811-4cd0-bb03-b06fd94b2b82)
-    (property "Reference" "TP5" (at 24.13 68.58 90)
+    (property "Reference" "TP1" (at 24.13 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BOOTSEL" (at 24.13 76.2 90)
@@ -4160,7 +4160,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "TP5") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -4169,7 +4169,7 @@
   (symbol (lib_id "Device:C") (at 121.92 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ecc0447-56be-4f3b-951b-2a17673662e7)
-    (property "Reference" "C15" (at 124.46 170.18 0)
+    (property "Reference" "C5" (at 124.46 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 124.46 172.72 0)
@@ -4186,7 +4186,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C15") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4195,7 +4195,7 @@
   (symbol (lib_id "Device:C") (at 207.01 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ee81e6a-9575-4563-95b6-5488258b636e)
-    (property "Reference" "C11" (at 209.55 27.94 0)
+    (property "Reference" "C13" (at 209.55 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 209.55 30.48 0)
@@ -4212,7 +4212,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C11") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -4221,7 +4221,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 53.34 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f3d511c-2fd5-4da5-ac95-993b1871a451)
-    (property "Reference" "TP4" (at 46.99 116.84 90)
+    (property "Reference" "TP5" (at 46.99 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GND" (at 39.37 116.84 90)
@@ -4237,7 +4237,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "TP4") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -4246,7 +4246,7 @@
   (symbol (lib_id "Device:C") (at 184.15 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 672c6da7-ecaf-4f1a-b5cb-7f82dac31e5c)
-    (property "Reference" "C9" (at 186.69 27.94 0)
+    (property "Reference" "C11" (at 186.69 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 186.69 30.48 0)
@@ -4263,7 +4263,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4272,7 +4272,7 @@
   (symbol (lib_id "power:GND") (at 203.2 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67712b1b-5daf-438e-bb09-6b8d1f3e3d6c)
-    (property "Reference" "#PWR032" (at 203.2 100.33 0)
+    (property "Reference" "#PWR025" (at 203.2 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 99.06 0)
@@ -4288,7 +4288,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4297,7 +4297,7 @@
   (symbol (lib_id "power:GND") (at 66.04 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68ea0555-10ad-44ad-93b9-2a91cf41a511)
-    (property "Reference" "#PWR05" (at 66.04 49.53 0)
+    (property "Reference" "#PWR08" (at 66.04 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 48.26 0)
@@ -4313,7 +4313,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4348,7 +4348,7 @@
   (symbol (lib_id "power:GND") (at 33.02 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cb2183d-e9a8-4910-acbb-e57936ea7f76)
-    (property "Reference" "#PWR014" (at 33.02 191.77 0)
+    (property "Reference" "#PWR02" (at 33.02 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 190.5 0)
@@ -4364,7 +4364,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4373,7 +4373,7 @@
   (symbol (lib_id "power:+5V") (at 33.02 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fb0bb29-4bc1-4c78-8808-f922f646fef3)
-    (property "Reference" "#PWR013" (at 33.02 152.4 0)
+    (property "Reference" "#PWR01" (at 33.02 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 33.02 143.51 0)
@@ -4389,7 +4389,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4398,7 +4398,7 @@
   (symbol (lib_id "Device:R_US") (at 62.23 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 713ce2e4-47b1-4785-b160-4be41b46e811)
-    (property "Reference" "R7" (at 59.69 160.02 90)
+    (property "Reference" "R2" (at 59.69 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180k" (at 64.77 160.02 90)
@@ -4415,7 +4415,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R7") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4424,7 +4424,7 @@
   (symbol (lib_id "power:+3V3") (at 222.25 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72e5f659-37dc-4469-8408-1cb97d7ea89e)
-    (property "Reference" "#PWR031" (at 222.25 46.99 0)
+    (property "Reference" "#PWR026" (at 222.25 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 222.25 38.1 0)
@@ -4440,7 +4440,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4449,7 +4449,7 @@
   (symbol (lib_id "power:GND") (at 184.15 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 760fd540-d984-49a0-8d33-449263f7735f)
-    (property "Reference" "#PWR012" (at 184.15 54.61 0)
+    (property "Reference" "#PWR024" (at 184.15 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 53.34 0)
@@ -4465,7 +4465,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4502,7 +4502,7 @@
   (symbol (lib_id "Device:C") (at 229.87 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c2cb5c9-1cff-4314-afbf-ecae8ce957f6)
-    (property "Reference" "C13" (at 232.41 27.94 0)
+    (property "Reference" "C16" (at 232.41 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 232.41 30.48 0)
@@ -4519,7 +4519,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C13") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4613,7 +4613,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 955a4522-f0de-41b9-9fee-e5c2decffff3)
-    (property "Reference" "R8" (at 195.58 153.67 90)
+    (property "Reference" "R7" (at 195.58 153.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 200.66 153.67 90)
@@ -4630,7 +4630,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4639,7 +4639,7 @@
   (symbol (lib_id "Device:C") (at 132.08 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 984a827e-1570-4759-ad82-adca04d62577)
-    (property "Reference" "C5" (at 134.62 27.94 0)
+    (property "Reference" "C6" (at 134.62 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 134.62 30.48 0)
@@ -4656,7 +4656,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4665,7 +4665,7 @@
   (symbol (lib_id "Interface_Expansion:MCP23017_ML") (at 222.25 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b7dad49-8350-4c87-8cc8-4e6b2d18d422)
-    (property "Reference" "U4" (at 209.55 44.45 0)
+    (property "Reference" "U3" (at 209.55 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP23017_ML" (at 205.74 46.99 0)
@@ -4709,7 +4709,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4718,7 +4718,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 53.34 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b9cee43-939a-49f8-b844-c7d9a4bb30db)
-    (property "Reference" "TP2" (at 46.99 111.76 90)
+    (property "Reference" "TP3" (at 46.99 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CLK" (at 39.37 111.76 90)
@@ -4734,7 +4734,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "TP2") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -4743,7 +4743,7 @@
   (symbol (lib_id "power:+1V1") (at 132.08 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e92ac00-04f4-478b-93d2-f5acfb7d9b74)
-    (property "Reference" "#PWR09" (at 132.08 26.67 0)
+    (property "Reference" "#PWR017" (at 132.08 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (at 132.08 17.78 0)
@@ -4759,7 +4759,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4768,7 +4768,7 @@
   (symbol (lib_id "power:+5V") (at 147.32 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4724bd5-b420-4b85-825c-b09d245569d9)
-    (property "Reference" "#PWR0101" (at 147.32 180.34 0)
+    (property "Reference" "#PWR019" (at 147.32 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 147.32 171.45 0)
@@ -4784,7 +4784,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4793,7 +4793,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6a98088-af26-4e43-a299-699b5f836921)
-    (property "Reference" "R10" (at 195.58 163.83 90)
+    (property "Reference" "R9" (at 195.58 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 200.66 163.83 90)
@@ -4810,7 +4810,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "power:GND") (at 261.62 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a867704d-b58d-4b2e-be5d-5db51a42676a)
-    (property "Reference" "#PWR01" (at 261.62 38.1 0)
+    (property "Reference" "#PWR035" (at 261.62 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 36.83 0)
@@ -4835,7 +4835,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4844,7 +4844,7 @@
   (symbol (lib_id "Device:C") (at 132.08 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa50bd3d-7ee2-404f-be44-b18a539c5aea)
-    (property "Reference" "C6" (at 134.62 40.64 0)
+    (property "Reference" "C7" (at 134.62 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 134.62 43.18 0)
@@ -4861,7 +4861,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4920,7 +4920,7 @@
   (symbol (lib_id "Device:C") (at 247.65 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae17ed4c-9434-482c-b6d2-8a2e98c463d6)
-    (property "Reference" "C17" (at 248.92 96.52 90)
+    (property "Reference" "C20" (at 248.92 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 248.92 99.06 90)
@@ -4937,7 +4937,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C17") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4946,7 +4946,7 @@
   (symbol (lib_id "Device:C") (at 172.72 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0c29e0c-3ca9-4c23-a881-60aa7098cba8)
-    (property "Reference" "C8" (at 175.26 40.64 0)
+    (property "Reference" "C10" (at 175.26 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 175.26 43.18 0)
@@ -4963,7 +4963,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4972,7 +4972,7 @@
   (symbol (lib_id "Device:C") (at 172.72 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5790c7b-194e-4550-8ef2-c44f1ac8b74b)
-    (property "Reference" "C7" (at 175.26 27.94 0)
+    (property "Reference" "C9" (at 175.26 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 175.26 30.48 0)
@@ -4989,7 +4989,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5024,7 +5024,7 @@
   (symbol (lib_id "power:GND") (at 127 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b93d92d7-8b1f-4976-b6fc-461ac6287ce6)
-    (property "Reference" "#PWR023" (at 127 185.42 0)
+    (property "Reference" "#PWR016" (at 127 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 184.15 0)
@@ -5040,7 +5040,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5049,7 +5049,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 167.64 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb60a551-b5d7-4c6c-a974-367edb3a01b4)
-    (property "Reference" "#FLG0102" (at 167.64 174.625 0)
+    (property "Reference" "#FLG03" (at 167.64 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 167.64 171.45 0)
@@ -5065,7 +5065,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#FLG0102") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -5074,7 +5074,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf1c1fe0-d150-4576-acd0-706e5ae58ee5)
-    (property "Reference" "R9" (at 195.58 158.75 90)
+    (property "Reference" "R8" (at 195.58 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 200.66 158.75 90)
@@ -5091,7 +5091,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5152,7 +5152,7 @@
   (symbol (lib_id "power:GND") (at 237.49 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2208937-16a6-4e70-b44e-ca065bede262)
-    (property "Reference" "#PWR029" (at 237.49 140.97 0)
+    (property "Reference" "#PWR030" (at 237.49 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 139.7 0)
@@ -5168,7 +5168,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5177,7 +5177,7 @@
   (symbol (lib_id "power:GND") (at 85.09 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2f9d394-3f04-412b-a57f-e2084031d155)
-    (property "Reference" "#PWR02" (at 85.09 128.27 0)
+    (property "Reference" "#PWR011" (at 85.09 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 127 0)
@@ -5193,7 +5193,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5202,7 +5202,7 @@
   (symbol (lib_id "power:GND") (at 152.4 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5cb3f1b-c733-404b-99af-6fa03084bd70)
-    (property "Reference" "#PWR010" (at 152.4 153.67 0)
+    (property "Reference" "#PWR020" (at 152.4 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 152.4 0)
@@ -5218,7 +5218,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5227,7 +5227,7 @@
   (symbol (lib_id "power:+3V3") (at 87.63 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c92cb964-0b3a-4494-9397-766db43aeb38)
-    (property "Reference" "#PWR020" (at 87.63 152.4 0)
+    (property "Reference" "#PWR012" (at 87.63 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 87.63 143.51 0)
@@ -5243,7 +5243,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5252,7 +5252,7 @@
   (symbol (lib_id "Device:C") (at 195.58 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc5c10ed-0e5a-459b-8383-5a33716b1afc)
-    (property "Reference" "C10" (at 198.12 27.94 0)
+    (property "Reference" "C12" (at 198.12 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 198.12 30.48 0)
@@ -5269,7 +5269,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5302,7 +5302,7 @@
   (symbol (lib_id "power:+3V3") (at 247.65 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce524dcd-f800-4fbe-a5d0-63aa7261609b)
-    (property "Reference" "#PWR027" (at 247.65 120.65 0)
+    (property "Reference" "#PWR032" (at 247.65 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 247.65 111.76 0)
@@ -5318,7 +5318,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5327,7 +5327,7 @@
   (symbol (lib_id "Device:C") (at 132.08 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d36a923d-30ea-43da-a398-9590bbb687a1)
-    (property "Reference" "C16" (at 134.62 170.18 0)
+    (property "Reference" "C8" (at 134.62 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 134.62 172.72 0)
@@ -5344,7 +5344,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C16") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5353,7 +5353,7 @@
   (symbol (lib_id "Device:C") (at 66.04 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d634fc2c-bd89-43d3-9bb9-65f1f2b38090)
-    (property "Reference" "C3" (at 69.85 36.8299 0)
+    (property "Reference" "C1" (at 69.85 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 69.85 39.3699 0)
@@ -5370,7 +5370,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -5405,7 +5405,7 @@
   (symbol (lib_id "Device:C") (at 218.44 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc244ef2-d8da-4b40-8b8f-1cdd7426a33d)
-    (property "Reference" "C12" (at 220.98 27.94 0)
+    (property "Reference" "C14" (at 220.98 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 220.98 30.48 0)
@@ -5422,7 +5422,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -5431,7 +5431,7 @@
   (symbol (lib_id "Device:C") (at 92.71 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddf0908d-eb91-488b-8c16-a90072d36255)
-    (property "Reference" "C2" (at 90.17 119.38 90)
+    (property "Reference" "C3" (at 90.17 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15pF" (at 96.52 119.38 90)
@@ -5448,7 +5448,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -5457,7 +5457,7 @@
   (symbol (lib_id "power:GND") (at 265.43 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de0ca6e2-79be-4d76-8d42-32d22f7305cd)
-    (property "Reference" "#PWR030" (at 265.43 162.56 0)
+    (property "Reference" "#PWR036" (at 265.43 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 161.29 0)
@@ -5473,7 +5473,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5482,7 +5482,7 @@
   (symbol (lib_id "power:GND") (at 68.58 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de3e303c-b10d-432d-9217-2358da5ced52)
-    (property "Reference" "#PWR018" (at 68.58 166.37 0)
+    (property "Reference" "#PWR09" (at 68.58 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 165.1 0)
@@ -5498,7 +5498,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -5507,7 +5507,7 @@
   (symbol (lib_id "Device:C") (at 241.3 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec8e3fae-6101-4d6e-ac93-8efb24715753)
-    (property "Reference" "C14" (at 243.84 27.94 0)
+    (property "Reference" "C17" (at 243.84 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 243.84 30.48 0)
@@ -5524,7 +5524,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "C14") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -5533,7 +5533,7 @@
   (symbol (lib_id "20655-045E-01:20655-045E-01") (at 278.13 92.71 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed06c51f-8227-4b3c-84b7-cc3f490917b0)
-    (property "Reference" "J3" (at 275.59 25.4 0)
+    (property "Reference" "J2" (at 275.59 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IPEX 20655-045E-01" (at 261.62 27.94 0)
@@ -5632,7 +5632,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -5665,7 +5665,7 @@
   (symbol (lib_id "Device:R_US") (at 198.12 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef841e79-b108-4f68-965e-99f00a34ec47)
-    (property "Reference" "R4" (at 195.58 148.59 90)
+    (property "Reference" "R6" (at 195.58 148.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 200.66 148.59 90)
@@ -5682,7 +5682,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5717,7 +5717,7 @@
   (symbol (lib_id "power:GND") (at 242.57 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7b52fb4-6f9b-4b18-bb20-05cfd1efd888)
-    (property "Reference" "#PWR025" (at 242.57 110.49 0)
+    (property "Reference" "#PWR031" (at 242.57 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 109.22 0)
@@ -5733,7 +5733,7 @@
     (instances
       (project "MicrocontrollerInputModule"
         (path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
