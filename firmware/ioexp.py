@@ -41,22 +41,19 @@ leds = [capslock, fnlock, mute, micmute]
 kbd_bl_pwm = all_pins[11]
 hotkey = all_pins[14]
 
+# set to true to turn on backlight; could also be PWM'ed
 kbd_bl_pwm.switch_to_output(False)
 
 def test_leds():
-    #p.switch_to_output(kbd_bl_pwm, True)
     for p in leds:
         p.switch_to_output(False)
         time.sleep(1)
         p.switch_to_input(pull=digitalio.Pull.UP)
-    #p.switch_to_output(kbd_bl_pwm, False)
 
 def test_hotkey():
     while True:
         fn_pressed = not hotkey.value
         fnlock.switch_to_output(not fn_pressed)
-        #print(fn_pressed)
-        #print(all_pins[11].value, all_pins[14].value)
         time.sleep(0.5)
 
 def test_inputs():
@@ -69,10 +66,10 @@ def test_inputs():
         time.sleep(0.25)
 
 def test_ioexp():
+    # enable DRV0
     io_pins[14].switch_to_output(False)
     test_inputs()
 
-print("Here I am")
 #test_leds()
 #test_hotkey()
 test_ioexp()

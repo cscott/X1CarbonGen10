@@ -33,4 +33,4 @@ def check_one():
 while True:
     print("----")
     check_one()
-    time.sleep(1)
+    time.sleep(0.5)
