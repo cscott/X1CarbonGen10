@@ -2970,6 +2970,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68ba214c-9341-4fc5-afed-b190827f07f4)
   )
+  (text "NOTE: R2 VALUE IS WRONG/NOT YET KNOWN" (at 40.64 187.96 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6e254ac6-222e-4948-85b0-6daa086c9b2d)
+  )
   (text "32" (at 265.43 120.65 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 709b2988-6d88-41c6-8c4b-2254695a904d)
@@ -3718,7 +3722,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 53.34 109.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0d59877e-9a3d-48a1-b506-0a8d956fe5fa)
     (property "Reference" "TP2" (at 46.99 109.22 90)
       (effects (font (size 1.27 1.27)))
@@ -3793,7 +3797,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 39.37 168.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0efeb74b-6636-400e-93c6-eef2e86d0826)
     (property "Reference" "J1" (at 46.99 166.3699 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4116,7 +4120,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 53.34 114.3 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2ae6e72f-291d-42ee-a7ce-79a597460121)
     (property "Reference" "TP4" (at 46.99 114.3 90)
       (effects (font (size 1.27 1.27)))
@@ -4200,7 +4204,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 16.51 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 330bcba4-4c8c-49bd-aff7-49c6c80b3248)
     (property "Reference" "H3" (at 19.05 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4620,7 +4624,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 24.13 62.23 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 5d83b48e-b811-4cd0-bb03-b06fd94b2b82)
     (property "Reference" "TP1" (at 24.13 68.58 90)
       (effects (font (size 1.27 1.27)))
@@ -4736,7 +4740,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 53.34 116.84 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 5f3d511c-2fd5-4da5-ac95-993b1871a451)
     (property "Reference" "TP5" (at 46.99 116.84 90)
       (effects (font (size 1.27 1.27)))
@@ -4952,7 +4956,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 62.23 157.48 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 713ce2e4-47b1-4785-b160-4be41b46e811)
     (property "Reference" "R2" (at 59.69 160.02 90)
       (effects (font (size 1.27 1.27)))
@@ -5333,7 +5337,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 53.34 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 9b9cee43-939a-49f8-b844-c7d9a4bb30db)
     (property "Reference" "TP3" (at 46.99 111.76 90)
       (effects (font (size 1.27 1.27)))
@@ -5565,7 +5569,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 16.51 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid aafcfa64-9217-4e7d-bd3e-24d843465741)
     (property "Reference" "H1" (at 19.05 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6109,7 +6113,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 203.2 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c9bd3665-4360-473a-92ce-661b4b0ce405)
     (property "Reference" "TP6" (at 196.85 69.85 90)
       (effects (font (size 1.27 1.27)))
@@ -6184,7 +6188,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 16.51 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cd315cf5-1f85-421c-afeb-e50ca6f318f8)
     (property "Reference" "H4" (at 19.05 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6538,7 +6542,7 @@
   )
 
   (symbol (lib_id "20655-045E-01:20655-045E-01") (at 278.13 92.71 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ed06c51f-8227-4b3c-84b7-cc3f490917b0)
     (property "Reference" "J2" (at 275.59 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6655,7 +6659,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 16.51 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid edf63103-5ffc-426f-aaf2-ec1fd50a83d3)
     (property "Reference" "H2" (at 19.05 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
