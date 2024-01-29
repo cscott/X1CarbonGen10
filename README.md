@@ -49,5 +49,5 @@ match crystal caps to crystal selected.
 | 12     | R6, R7, R8, R9                                     | 4   | Panasonic                           | ERJ-2RKF1000X            | 100                 | Resistor_SMD:R_0402_1005Metric                       | SMT  |
 | 13     | U1                                                 | 1   | Winbond                             | W25Q16JVUXIQ             | W25Q16JVUXIQ        | InputModule:SON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm       | SMT  |
 | 14     | U2                                                 | 1   | Raspberry Pi                        | RP2040TR7                | RP2040              | Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm  | SMT  |
-| 15     | U3                                                 | 1   | Microchip                           | MCP23017_ML              | MCP23017_ML         | Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm | SMT|
+| 15     | U3                                                 | 1   | Microchip                           | MCP23S17_ML              | MCP23S17_ML         | Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm | SMT|
 | 16     | Y1                                                 | 1   | Abracon                             | ABM8G-12.000MHZ-18-D2Y-T | 12.000MHz           | Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm              | SMT  |
