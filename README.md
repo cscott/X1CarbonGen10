@@ -6,6 +6,10 @@ This module is based on the "Microcontroller Input Module" example
 from https://github.com/FrameworkComputer/InputModules which in
 is based on the Adafruit Feather RP2040 (https://www.adafruit.com/product/4884).
 
+More discussion of this project, and of replacement keyboards for
+the Framework 16 laptop generally, can be found in the [Framework
+forums](https://community.frame.work/t/thinkpad-keyboard-mod-super-early-stages/38484/58).
+
 
 ## License
 Input Modules © 2023 by Framework Computer Inc is licensed under CC BY 4.0.
