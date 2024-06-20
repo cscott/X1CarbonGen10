@@ -4825,6 +4825,12 @@
 		(uuid "092431d0-9c22-44b7-a34a-6aa092539397")
 	)
 	(junction
+		(at 237.49 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e3baca1-39ef-4745-b39e-37df230bf7a9")
+	)
+	(junction
 		(at 207.01 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4937,6 +4943,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57fac183-4f98-4b02-a290-de0c19da509d")
+	)
+	(junction
+		(at 247.65 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eecab97-c950-4072-a00e-a34e4228814e")
 	)
 	(junction
 		(at 222.25 44.45)
@@ -5494,6 +5506,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 143.51) (xy 247.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29679eda-4c8d-4737-be57-2500d8cb7fa4")
+	)
+	(wire
+		(pts
 			(xy 256.54 120.65) (xy 267.97 120.65)
 		)
 		(stroke
@@ -5781,6 +5803,16 @@
 			(type default)
 		)
 		(uuid "3eae41ec-9e42-4e40-848c-9cb90b4fd7ad")
+	)
+	(wire
+		(pts
+			(xy 237.49 143.51) (xy 237.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3e7d77-d24b-4761-9739-da90b044c7ad")
 	)
 	(wire
 		(pts
@@ -6114,6 +6146,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 143.51) (xy 238.76 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5815e71a-a576-43b2-a4dc-4906fa7c161c")
+	)
+	(wire
+		(pts
 			(xy 109.22 67.31) (xy 116.84 67.31)
 		)
 		(stroke
@@ -6124,7 +6166,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 134.62) (xy 237.49 133.35)
+			(xy 237.49 146.05) (xy 237.49 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7874,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 143.51) (xy 247.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fcc4d1-6f10-4ad5-8345-462ece6f6295")
+	)
+	(wire
+		(pts
 			(xy 240.03 52.07) (xy 248.92 52.07)
 		)
 		(stroke
@@ -9138,6 +9190,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec77e014-f3a4-4e34-8dfe-09768e4fc2ad")
+	)
+	(text "Careful of cap height\n< .9mm\nNominally 47uF\nCould make 5x10uF to\nreduce unique components"
+		(exclude_from_sim no)
+		(at 223.266 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed94cb2e-6816-49a9-a173-36d45f3df6f1")
 	)
 	(text "16"
 		(exclude_from_sim no)
@@ -13737,7 +13799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 243.84 129.54 90)
 			(effects
 				(font
@@ -15411,6 +15473,351 @@
 		)
 	)
 	(symbol
+		(lib_id "20655-045E-01:20655-045E-01")
+		(at 299.72 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8bfcdba-a153-4aea-b7f6-bb88d6fb7a88")
+		(property "Reference" "J3"
+			(at 297.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPEX 20655-045E-01"
+			(at 283.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "20655-045E-01:0.3K-HX-45PWB"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\n0.3 mm pitch, Horizontal mating, Backflip, Mechanical lock, Hold down, with long actuator, (Height = 0.9 mm) connector,MINIFLEX, FPC\n"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "I-PEX"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=eda"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=snap"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "20655-045E-01"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "I-Pex"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2919534"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5378-20655-045E-01CT-ND"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" "missing"
+			(at 299.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "56b48af4-0c8c-4e70-9c15-ae1a161908a7")
+		)
+		(pin "41"
+			(uuid "14f5e1d0-239b-473b-a29a-cb88e68a5e4a")
+		)
+		(pin "36"
+			(uuid "32ca3cd2-faf0-4da3-9d30-641b4138db33")
+		)
+		(pin "32"
+			(uuid "289d477b-8493-468e-935a-9cef7d83eec7")
+		)
+		(pin "29"
+			(uuid "1081d3a5-0e9f-4aed-a4c1-3f4e97c051ab")
+		)
+		(pin "S1"
+			(uuid "50c13562-2642-4235-a4a6-6c2ecc739f7f")
+		)
+		(pin "LOCK2"
+			(uuid "4e1b0d29-92cf-40d5-9307-a3919cf15d47")
+		)
+		(pin "34"
+			(uuid "2cdf41f3-e9d8-45c3-9692-847247019977")
+		)
+		(pin "21"
+			(uuid "9e8fc6f1-a2ac-441f-91c3-3d7108e869fb")
+		)
+		(pin "5"
+			(uuid "8bdf0188-7132-4917-af4a-83abf2770d13")
+		)
+		(pin "35"
+			(uuid "fbaabfa5-0eba-45e5-8613-6cbe4f3e3d3b")
+		)
+		(pin "33"
+			(uuid "e2f255a7-bdca-4485-b793-86833c5a9822")
+		)
+		(pin "28"
+			(uuid "860599e8-89be-474d-b7f7-a4e9ff4bc336")
+		)
+		(pin "15"
+			(uuid "f8eac355-40fb-4b02-9a49-28c4ae14438b")
+		)
+		(pin "12"
+			(uuid "44829314-0fcf-4733-8189-efa8a1ba979e")
+		)
+		(pin "10"
+			(uuid "1a08f846-9bbe-4bc6-a070-64245e984fc7")
+		)
+		(pin "11"
+			(uuid "5a53097a-7dbc-46a8-a965-2117774b3606")
+		)
+		(pin "1"
+			(uuid "778b2dce-d344-4dbe-a122-c1b9152706ab")
+		)
+		(pin "14"
+			(uuid "023b8ba2-c1d4-46ba-9f9e-4be07219ac16")
+		)
+		(pin "13"
+			(uuid "ee6a3be1-af18-4c83-9121-bdc4cc4169ef")
+		)
+		(pin "23"
+			(uuid "546f6b10-8199-466c-876f-a61eb3f86740")
+		)
+		(pin "42"
+			(uuid "3f9dbeb5-4538-4167-9837-302aa5e25038")
+		)
+		(pin "16"
+			(uuid "b3ba4716-61e1-47fa-b241-7437d117018f")
+		)
+		(pin "S3"
+			(uuid "eafc4145-3b72-4b63-b99f-945c030d2d91")
+		)
+		(pin "4"
+			(uuid "39da1ed4-e424-42bd-b37d-4d3e421c3365")
+		)
+		(pin "26"
+			(uuid "e1263d92-defd-442d-91a4-9af47814fd61")
+		)
+		(pin "44"
+			(uuid "fdfe5d55-a17e-4eb6-b503-d8519af681a8")
+		)
+		(pin "24"
+			(uuid "c4003e45-5f19-48e0-862b-fe751b6dad7d")
+		)
+		(pin "25"
+			(uuid "69029ec2-14bd-46fd-b08e-fced16b67327")
+		)
+		(pin "27"
+			(uuid "3d5d9f03-6dfb-4afb-8e97-58e43c169dea")
+		)
+		(pin "40"
+			(uuid "c255c20c-ec9c-4371-ab17-c3e7ab4d5a7d")
+		)
+		(pin "43"
+			(uuid "609dc122-6a06-4c3d-a0c3-94a67c8a103e")
+		)
+		(pin "17"
+			(uuid "8ceec9c1-f620-4438-8ecb-9520e27636f4")
+		)
+		(pin "S4"
+			(uuid "38a2a848-767a-40b4-a06b-438370de8c56")
+		)
+		(pin "18"
+			(uuid "d6658090-f17a-470a-99fa-2d1f4ce786bc")
+		)
+		(pin "S2"
+			(uuid "a9777d78-4a94-4f86-9f70-016881d66c67")
+		)
+		(pin "20"
+			(uuid "7f80da1c-a3d0-4976-b2e2-328757777c19")
+		)
+		(pin "2"
+			(uuid "4fa3fa1c-45fa-4917-ae4a-91441b064b3d")
+		)
+		(pin "19"
+			(uuid "1e4a2680-5980-42a0-ae67-addaa1f1211b")
+		)
+		(pin "37"
+			(uuid "c3d60aad-1994-4077-a381-31efd47ad261")
+		)
+		(pin "38"
+			(uuid "38070f01-0966-42ab-8c4c-45458b538e14")
+		)
+		(pin "45"
+			(uuid "27cc4339-13ae-48cd-99d2-0cf4f107aad4")
+		)
+		(pin "39"
+			(uuid "b5f01747-6113-4a5f-99be-e8be26e6efbe")
+		)
+		(pin "9"
+			(uuid "fc1e5049-5fbc-432e-9588-7deecf10fa44")
+		)
+		(pin "8"
+			(uuid "b20c3e0a-f261-4171-ae73-30e4001f09d5")
+		)
+		(pin "LOCK1"
+			(uuid "c4f839b8-b9ee-46bd-b624-c7a80c17a94f")
+		)
+		(pin "3"
+			(uuid "daba4b72-7111-4fcc-9d55-0614e799b57a")
+		)
+		(pin "31"
+			(uuid "106266ba-e34e-471a-b208-3f3e32a9779e")
+		)
+		(pin "30"
+			(uuid "c13cd1c2-9497-4ebb-8cf5-5faf6905c6ff")
+		)
+		(pin "22"
+			(uuid "a16a11fd-06cc-4f20-ab64-1ed1e40b2210")
+		)
+		(pin "7"
+			(uuid "7071d53b-6f77-4e48-9cb7-cedaeb7483e5")
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 41.91 0)
 		(unit 1)
@@ -16333,6 +16740,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 242.57 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be8ddf7b-d7b7-4afe-a4e1-aca85d01197f")
+		(property "Reference" "C21"
+			(at 243.84 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 243.84 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 246.38 142.5448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16780"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1852-1-ND"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL21A476MQYNNNE"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4987daf1-ddf7-486b-ae5c-1e7ec02d950d")
+		)
+		(pin "2"
+			(uuid "576aaebe-3555-4d52-98f8-6fecf22ab4a4")
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 198.12 156.21 90)
 		(unit 1)
@@ -16670,7 +17191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 134.62 0)
+		(at 237.49 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16679,7 +17200,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2208937-16a6-4e70-b44e-ca065bede262")
 		(property "Reference" "#PWR030"
-			(at 237.49 140.97 0)
+			(at 237.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16688,7 +17209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 139.7 0)
+			(at 237.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16696,7 +17217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 134.62 0)
+			(at 237.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16705,7 +17226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 134.62 0)
+			(at 237.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16714,7 +17235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 134.62 0)
+			(at 237.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
