@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -65,8 +65,9 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|62365001|173240250|1200802b-8375-46e3-9e38-a7ba83b57bd6|780af0df-7182-4740-899d-135e7571518c",
-        "courtyards_overlap|71464999|174815875|780af0df-7182-4740-899d-135e7571518c|b020fc63-bc15-4402-a78c-353a4de52bdb"
+        "courtyards_overlap|122365001|173204976|1200802b-8375-46e3-9e38-a7ba83b57bd6|780af0df-7182-4740-899d-135e7571518c",
+        "courtyards_overlap|131464999|174746024|780af0df-7182-4740-899d-135e7571518c|b020fc63-bc15-4402-a78c-353a4de52bdb",
+        "silk_edge_clearance|76000000|139319000|014c0718-63f5-480e-b6d7-283c8f94ed9f|fff1d0dd-7225-439d-91e8-c3180b15f73d"
       ],
       "meta": {
         "version": 2
@@ -192,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
         0.1524,
         0.3048
       ],
@@ -516,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "jlcpcb-20240620/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

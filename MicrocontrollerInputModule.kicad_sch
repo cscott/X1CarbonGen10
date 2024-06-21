@@ -14,7 +14,7 @@
 		(comment 3 "This work is licensed under a Creative Commons Attribution 4.0 International License")
 	)
 	(lib_symbols
-		(symbol "20655-045E-01:20655-045E-01"
+		(symbol "20655-045E-01:0.3K-HX-45PWB"
 			(pin_names
 				(offset 1.016)
 			)
@@ -30,8 +30,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "20655-045E-01"
-				(at -5.08 -66.04 0)
+			(property "Value" "0.3K-HX-45PWB"
+				(at -5.334 -60.96 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +39,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "20655-045E-01:IPEX_20655-045E-01"
+			(property "Footprint" "20655-045E-01:0.3K-HX-45PWB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "\n0.3 mm pitch, Horizontal mating, Backflip, Mechanical lock, Hold down, with long actuator, (Height = 0.9 mm) connector,MINIFLEX, FPC\n"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "I-PEX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "I-PEX"
+			(property "Description_1" "\n0.3 mm pitch, Horizontal mating, Backflip, Mechanical lock, Hold down, with long actuator, (Height = 0.9 mm) connector,MINIFLEX, FPC\n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -168,10 +177,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "20655-045E-01_0_0"
+			(symbol "0.3K-HX-45PWB_0_0"
 				(rectangle
-					(start -5.08 -63.5)
-					(end 5.08 63.5)
+					(start -5.08 63.5)
+					(end 5.08 -58.42)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1019,78 +1028,6 @@
 						)
 					)
 					(number "LOCK2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -60.96 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -60.96 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -60.96 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -60.96 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4181,8 +4118,8 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -4261,9 +4198,9 @@
 		)
 		(symbol "power:+1V1"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4361,8 +4298,8 @@
 			(symbol "+1V1_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+1V1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4381,9 +4318,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4481,8 +4418,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4501,9 +4438,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4601,8 +4538,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4621,9 +4558,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4697,8 +4634,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4780,7 +4717,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4927,6 +4864,12 @@
 		(uuid "3bde5d28-6ecf-450e-af83-2794f5524555")
 	)
 	(junction
+		(at 247.65 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41d737fd-9773-41e9-ad3d-28ecac822785")
+	)
+	(junction
 		(at 195.58 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4957,16 +4900,22 @@
 		(uuid "612f8781-a87b-4987-8633-7d0807e07432")
 	)
 	(junction
+		(at 237.49 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66cbfa4a-ba2a-4cec-a043-26c054bdc61b")
+	)
+	(junction
 		(at 106.68 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ac9539-1366-4c92-bd89-a8aa994ef931")
 	)
 	(junction
-		(at 265.43 31.75)
+		(at 247.65 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a773b5f-54af-45d1-893a-c9c68279ad9d")
+		(uuid "76c39f9a-5885-4f24-b580-bcc576a06072")
 	)
 	(junction
 		(at 24.13 59.69)
@@ -4993,6 +4942,12 @@
 		(uuid "91d8de15-b04e-4dc1-946d-9fe5696d93df")
 	)
 	(junction
+		(at 266.7 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97dfa136-6c3e-4d01-8632-59a831a0aef6")
+	)
+	(junction
 		(at 264.16 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5009,6 +4964,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcdfab98-1a0c-404c-8bf3-6e94e830f428")
+	)
+	(junction
+		(at 237.49 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be922e8a-3bcf-49dc-bfe1-c3beaa729cde")
 	)
 	(junction
 		(at 195.58 24.13)
@@ -5173,6 +5134,16 @@
 			(type default)
 		)
 		(uuid "04c45e0b-aa72-4c31-ba4f-ccba3531d001")
+	)
+	(wire
+		(pts
+			(xy 266.7 153.67) (xy 267.97 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05315002-3f28-43b7-9df3-3b471abd8441")
 	)
 	(wire
 		(pts
@@ -5413,6 +5384,16 @@
 			(type default)
 		)
 		(uuid "1fdd9eab-aa88-4898-a7f7-d8b89ee71201")
+	)
+	(wire
+		(pts
+			(xy 266.7 153.67) (xy 266.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ce8c5c-b9e7-4591-83a2-442b778c54f1")
 	)
 	(wire
 		(pts
@@ -5806,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 143.51) (xy 237.49 133.35)
+			(xy 237.49 143.51) (xy 237.49 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5923,16 +5904,6 @@
 			(type default)
 		)
 		(uuid "4b51a085-f3cf-4583-b9ea-13ba8203bc10")
-	)
-	(wire
-		(pts
-			(xy 261.62 31.75) (xy 265.43 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b90ada1-d0c4-4d2e-8b51-33fe5f787ca4")
 	)
 	(wire
 		(pts
@@ -6166,7 +6137,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 146.05) (xy 237.49 143.51)
+			(xy 237.49 151.13) (xy 237.49 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6256,6 +6227,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 148.59) (xy 237.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4e24a-d6cf-4572-a4e5-cea13cbb3e94")
+	)
+	(wire
+		(pts
 			(xy 115.57 87.63) (xy 127 87.63)
 		)
 		(stroke
@@ -6306,13 +6287,23 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 153.67) (xy 267.97 153.67)
+			(xy 264.16 153.67) (xy 266.7 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62783463-8718-49d4-94e7-c61d703574a6")
+	)
+	(wire
+		(pts
+			(xy 266.7 158.75) (xy 267.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635da917-316a-47ed-b611-b555c192fae0")
 	)
 	(wire
 		(pts
@@ -6796,16 +6787,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 31.75) (xy 265.43 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839eee41-61bd-48fd-a20a-cb3416504e6a")
-	)
-	(wire
-		(pts
 			(xy 191.77 74.93) (xy 204.47 74.93)
 		)
 		(stroke
@@ -6943,6 +6924,16 @@
 			(type default)
 		)
 		(uuid "9120d64d-452e-4cfa-a7bb-3f85c44f6dd0")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 238.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9169e05f-7531-4b91-8e66-43ffbf5df1f5")
 	)
 	(wire
 		(pts
@@ -7224,16 +7215,6 @@
 		)
 		(uuid "a55fc4e7-6366-42e4-8fe7-833f7d236828")
 	)
-	(polyline
-		(pts
-			(xy 266.7 154.94) (xy 266.7 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69aebe1-6738-4598-8058-7e8ae78828b1")
-	)
 	(wire
 		(pts
 			(xy 195.58 33.02) (xy 195.58 34.29)
@@ -7393,6 +7374,16 @@
 			(type default)
 		)
 		(uuid "af196302-0a36-4333-8f94-732bcb9fba0c")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 237.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd87c17-a309-43c5-a149-23624428ccdd")
 	)
 	(wire
 		(pts
@@ -7746,6 +7737,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 143.51) (xy 247.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66b321b-6d86-4742-84cd-38fd6ea1a67d")
+	)
+	(wire
+		(pts
 			(xy 193.04 57.15) (xy 204.47 57.15)
 		)
 		(stroke
@@ -7793,16 +7794,6 @@
 			(type default)
 		)
 		(uuid "d8ed6e4b-c487-4267-af4d-6e7e268e7bf4")
-	)
-	(wire
-		(pts
-			(xy 267.97 36.83) (xy 265.43 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9acaa5a-a6d4-48e4-a50e-b2a7c2013eea")
 	)
 	(wire
 		(pts
@@ -7916,7 +7907,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 143.51) (xy 247.65 135.89)
+			(xy 247.65 143.51) (xy 247.65 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8016,6 +8007,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 148.59) (xy 238.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a286f3-9129-4a70-b41c-805e3774093c")
+	)
+	(wire
+		(pts
 			(xy 85.09 115.57) (xy 88.9 115.57)
 		)
 		(stroke
@@ -8066,6 +8067,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc3e82e-6629-4baf-9540-1bab8d9b6fe6")
+	)
+	(wire
+		(pts
 			(xy 132.08 36.83) (xy 147.32 36.83)
 		)
 		(stroke
@@ -8076,6 +8087,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 148.59) (xy 246.38 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00ec448-0730-476a-99cf-5234b7d77694")
+	)
+	(wire
+		(pts
+			(xy 247.65 138.43) (xy 247.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0423626-1802-44c2-a4f9-2d1258f4d41a")
+	)
+	(wire
+		(pts
 			(xy 246.38 118.11) (xy 267.97 118.11)
 		)
 		(stroke
@@ -8083,16 +8114,6 @@
 			(type default)
 		)
 		(uuid "f05baf77-4cc8-4ba7-8686-cd6877f8ffaf")
-	)
-	(wire
-		(pts
-			(xy 265.43 31.75) (xy 267.97 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f175f0a0-dc38-4f90-9b64-23da950b2921")
 	)
 	(wire
 		(pts
@@ -8619,17 +8640,6 @@
 		)
 		(uuid "68ba214c-9341-4fc5-afed-b190827f07f4")
 	)
-	(text "NOTE: R2 VALUE IS WRONG/NOT YET KNOWN"
-		(exclude_from_sim no)
-		(at 40.64 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e254ac6-222e-4948-85b0-6daa086c9b2d")
-	)
 	(text "32"
 		(exclude_from_sim no)
 		(at 265.43 120.65 0)
@@ -8663,9 +8673,9 @@
 		)
 		(uuid "71c9e9d2-19b2-4ee1-9d33-6c743a3a05ba")
 	)
-	(text "Top Entry, so pins are reversed"
+	(text "Bottom Entry"
 		(exclude_from_sim no)
-		(at 252.73 22.86 0)
+		(at 271.526 37.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9136,17 +9146,6 @@
 		)
 		(uuid "e04c01de-3756-463b-a4d9-370b1465e801")
 	)
-	(text "Unflipped Pin #"
-		(exclude_from_sim no)
-		(at 259.08 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e46af454-2fd5-4b94-a071-c58db52b7be8")
-	)
 	(text "A2"
 		(exclude_from_sim no)
 		(at 252.73 95.25 0)
@@ -9191,9 +9190,9 @@
 		)
 		(uuid "ec77e014-f3a4-4e34-8dfe-09768e4fc2ad")
 	)
-	(text "Careful of cap height\n< .9mm\nNominally 47uF\nCould make 5x10uF to\nreduce unique components"
+	(text "Careful of cap height\n< .9mm\nNominally 47uF"
 		(exclude_from_sim no)
-		(at 223.266 134.62 0)
+		(at 222.25 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10619,7 +10618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 120.65 69.85 0)
 			(effects
 				(font
@@ -10731,7 +10730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 53.34 109.22 0)
 			(effects
 				(font
@@ -10822,7 +10821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -10937,7 +10936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 168.91 0)
 			(effects
 				(font
@@ -11051,7 +11050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 132.08 163.83 0)
 			(effects
 				(font
@@ -11117,7 +11116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 121.92 163.83 0)
 			(effects
 				(font
@@ -11174,7 +11173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -11183,7 +11182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -11297,7 +11296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 121.92 0)
 			(effects
 				(font
@@ -11363,7 +11362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 185.42 0)
 			(effects
 				(font
@@ -11379,6 +11378,234 @@
 			(project "MicrocontrollerInputModule"
 				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c99102d-94e8-404b-a5ae-43bcdeb2f423")
+		(property "Reference" "C19"
+			(at 235.204 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 241.3 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 132.3848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A106MA8NRNC"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db14c3c2-6408-4337-a21f-9803864725b7")
+		)
+		(pin "2"
+			(uuid "8329f586-937b-4125-a62b-377427c8f845")
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca10c53-f8b0-40ae-bcad-2e1aaa1679eb")
+		(property "Reference" "C21"
+			(at 235.204 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 241.3 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 137.4648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A106MA8NRNC"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a38bc93a-d3c2-4ece-8f08-61bf8b5a7374")
+		)
+		(pin "2"
+			(uuid "ea9f24ae-1daf-4738-b65c-bdaa0aed0cac")
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11429,7 +11656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 101.6 0)
 			(effects
 				(font
@@ -11495,7 +11722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -11561,7 +11788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -11625,7 +11852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -11739,7 +11966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 48.26 0)
 			(effects
 				(font
@@ -11803,7 +12030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -11896,7 +12123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 77.47 0)
 			(effects
 				(font
@@ -11962,7 +12189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 48.26 148.59 0)
 			(effects
 				(font
@@ -12028,7 +12255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 16.51 170.18 0)
 			(effects
 				(font
@@ -12118,7 +12345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -12184,7 +12411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 157.48 176.53 0)
 			(effects
 				(font
@@ -12251,7 +12478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "A microcontroller by Raspberry Pi"
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -12530,7 +12757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 147.32 179.07 0)
 			(effects
 				(font
@@ -12596,7 +12823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 179.07 0)
 			(effects
 				(font
@@ -12662,7 +12889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 236.22 119.38 0)
 			(effects
 				(font
@@ -12728,7 +12955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 248.92 101.6 0)
 			(effects
 				(font
@@ -12794,7 +13021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 247.65 132.08 0)
 			(effects
 				(font
@@ -12860,7 +13087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 157.48 179.07 0)
 			(effects
 				(font
@@ -12924,7 +13151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 120.65 67.31 0)
 			(effects
 				(font
@@ -13038,7 +13265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 172.72 22.86 0)
 			(effects
 				(font
@@ -13104,7 +13331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 81.28 148.59 0)
 			(effects
 				(font
@@ -13168,7 +13395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 24.13 62.23 0)
 			(effects
 				(font
@@ -13261,7 +13488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 121.92 171.45 0)
 			(effects
 				(font
@@ -13366,7 +13593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 207.01 29.21 0)
 			(effects
 				(font
@@ -13375,7 +13602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 207.01 29.21 0)
 			(effects
 				(font
@@ -13487,7 +13714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -13571,7 +13798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -13580,7 +13807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -13694,7 +13921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 203.2 93.98 0)
 			(effects
 				(font
@@ -13760,7 +13987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 43.18 0)
 			(effects
 				(font
@@ -13776,120 +14003,6 @@
 			(project "MicrocontrollerInputModule"
 				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 242.57 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b434ca8-7435-4bf2-881f-20469e7e9ad2")
-		(property "Reference" "C19"
-			(at 243.84 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 243.84 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 246.38 132.3848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16780"
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1852-1-ND"
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samsung"
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL21A476MQYNNNE"
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Alt" ""
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b443a556-0b5e-46f3-909e-8b557cdc88e8")
-		)
-		(pin "2"
-			(uuid "9380329d-cbff-4bf9-9fc1-5d7cbb59f55c")
-		)
-		(instances
-			(project "MicrocontrollerInputModule"
-				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -13940,7 +14053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 33.02 185.42 0)
 			(effects
 				(font
@@ -13956,6 +14069,120 @@
 			(project "MicrocontrollerInputModule"
 				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ee390b3-1b4a-424a-bccf-7525b5fd4f0f")
+		(property "Reference" "C22"
+			(at 234.95 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 241.046 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 142.5448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A106MA8NRNC"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12d68df4-7527-42fb-adcc-591623fb694a")
+		)
+		(pin "2"
+			(uuid "251d64f3-49e0-49e0-82d2-34c86239d084")
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -14006,7 +14233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 33.02 148.59 0)
 			(effects
 				(font
@@ -14034,7 +14261,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "713ce2e4-47b1-4785-b160-4be41b46e811")
 		(property "Reference" "R2"
 			(at 59.69 160.02 90)
@@ -14044,7 +14271,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "330k"
 			(at 64.77 160.02 90)
 			(effects
 				(font
@@ -14052,7 +14279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.484 156.464 90)
 			(effects
 				(font
@@ -14061,7 +14288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3303T5E_C23137.pdf"
 			(at 62.23 157.48 0)
 			(effects
 				(font
@@ -14070,7 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 62.23 157.48 0)
 			(effects
 				(font
@@ -14079,7 +14306,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23137"
 			(at 62.23 157.48 0)
 			(effects
 				(font
@@ -14166,7 +14393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 222.25 43.18 0)
 			(effects
 				(font
@@ -14232,7 +14459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -14287,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Resonators/ABM8G.pdf"
+		(property "Datasheet" "~"
 			(at 100.33 110.49 0)
 			(effects
 				(font
@@ -14296,7 +14523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 100.33 110.49 0)
 			(effects
 				(font
@@ -14407,7 +14634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 229.87 29.21 0)
 			(effects
 				(font
@@ -14416,7 +14643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 229.87 29.21 0)
 			(effects
 				(font
@@ -14486,6 +14713,321 @@
 		)
 	)
 	(symbol
+		(lib_id "20655-045E-01:0.3K-HX-45PWB")
+		(at 278.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fe00684-7ed0-4aa1-8ad4-3c54430dadeb")
+		(property "Reference" "J2"
+			(at 274.32 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.3K-HX-45PWB"
+			(at 267.97 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "20655-045E-01:0.3K-HX-45PWB"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "I-PEX"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n0.3 mm pitch, Horizontal mating, Backflip, Mechanical lock, Hold down, with long actuator, (Height = 0.9 mm) connector,MINIFLEX, FPC\n"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=eda"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=snap"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "20655-045E-01"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "I-Pex"
+			(at 278.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "d25735ec-86b1-4fb2-8abb-d759793350da")
+		)
+		(pin "27"
+			(uuid "e309fe7e-fd6b-406a-983b-c7adf3cc0772")
+		)
+		(pin "15"
+			(uuid "36b2be57-f7e4-419d-8fd3-d71e222b7fd0")
+		)
+		(pin "29"
+			(uuid "35a4861b-838e-4038-9445-d2c9b2e7a9b7")
+		)
+		(pin "LOCK1"
+			(uuid "2a80ae81-33c5-4f48-a5f0-25c35f467bff")
+		)
+		(pin "21"
+			(uuid "387425dc-0c74-4bcc-abb7-07b9e4ffb50a")
+		)
+		(pin "26"
+			(uuid "a3cb4d2a-e4c7-43a4-ae6d-da6499cd4a9e")
+		)
+		(pin "18"
+			(uuid "11d0ccbe-3e91-4f1e-84ed-460ebac423b5")
+		)
+		(pin "LOCK2"
+			(uuid "6ea598bc-1601-478e-83bd-9484c37a56f7")
+		)
+		(pin "11"
+			(uuid "278aaea3-e7b1-420f-a4de-88eb13c96696")
+		)
+		(pin "10"
+			(uuid "f1f6cd4a-af64-433b-b681-093b185aa8c7")
+		)
+		(pin "17"
+			(uuid "7da2bb0c-872e-4c41-abc6-f4ca3ec0a1a9")
+		)
+		(pin "33"
+			(uuid "bbc9d3f9-716a-4866-8581-a0def9f5d37e")
+		)
+		(pin "44"
+			(uuid "2bf09f7b-d365-4b0a-a15c-2f4d8a896d0d")
+		)
+		(pin "5"
+			(uuid "66ef263f-4d6b-4726-b143-7a07e82a0d7a")
+		)
+		(pin "9"
+			(uuid "e2d4c22a-9f0a-47b7-ae6a-b76c6825d328")
+		)
+		(pin "22"
+			(uuid "87650af3-dbca-4d7c-893d-f7cf8c1027c9")
+		)
+		(pin "1"
+			(uuid "3928ebea-a8ff-44e7-a212-2397baed652f")
+		)
+		(pin "13"
+			(uuid "8c6747e4-d79c-4b1d-9578-6dd89996eb4b")
+		)
+		(pin "45"
+			(uuid "c81731b4-cd5d-45f9-846f-c1493ab7e714")
+		)
+		(pin "31"
+			(uuid "e65d97e0-07c3-45f9-9892-dbe0e031abf6")
+		)
+		(pin "20"
+			(uuid "c561b13f-da17-4910-bfc5-d1e813f97d4e")
+		)
+		(pin "23"
+			(uuid "58540262-fffa-4db9-965e-5052fc2ddea5")
+		)
+		(pin "2"
+			(uuid "54d6d85a-d841-4795-b1b2-8af320e93b43")
+		)
+		(pin "4"
+			(uuid "13d3e4b1-521f-419b-a056-d1d1ab1fa6a0")
+		)
+		(pin "38"
+			(uuid "99ae1318-5085-43f8-baff-a89a1d2b9407")
+		)
+		(pin "41"
+			(uuid "7d73d4a3-c572-4c79-bc31-4f80eb4786ac")
+		)
+		(pin "40"
+			(uuid "93350482-a322-4f01-97d6-f800873ba816")
+		)
+		(pin "30"
+			(uuid "c72b6d23-6922-4682-b717-6430c3c677cd")
+		)
+		(pin "42"
+			(uuid "9fb53e6b-ae52-4b58-8801-afc79573c1f6")
+		)
+		(pin "36"
+			(uuid "4d9c38b3-4a28-43e1-8ddb-bc4a948c5012")
+		)
+		(pin "37"
+			(uuid "81ce4d87-b8b2-464e-b8e7-21213876a098")
+		)
+		(pin "14"
+			(uuid "86557bbf-03b5-4e8c-b37e-4a71f7f441e6")
+		)
+		(pin "28"
+			(uuid "b0fc3a34-73ab-425f-b416-5c3f2edad3ea")
+		)
+		(pin "24"
+			(uuid "f0825f43-8197-4d24-9f28-436fc3f79e85")
+		)
+		(pin "12"
+			(uuid "61876bca-ce82-45a2-9718-58fe076bf07b")
+		)
+		(pin "19"
+			(uuid "2087e110-8a13-4c3f-83cd-c5c10ae89651")
+		)
+		(pin "34"
+			(uuid "1ea271e3-c305-44ac-938e-0f7aaf3ae043")
+		)
+		(pin "25"
+			(uuid "a5e4bfe4-2080-47ad-bf24-12c685f57eea")
+		)
+		(pin "32"
+			(uuid "38e1590d-0053-499e-95d1-016063b842e6")
+		)
+		(pin "3"
+			(uuid "421c70a8-5508-4c6b-8c81-f22539940a74")
+		)
+		(pin "35"
+			(uuid "ca3cf329-40f2-44eb-a374-25894c4fa6bb")
+		)
+		(pin "7"
+			(uuid "a6570273-7ad2-466a-bbf7-14c20f86d7fa")
+		)
+		(pin "6"
+			(uuid "80bae821-e24c-4706-876c-7908c5b13db7")
+		)
+		(pin "43"
+			(uuid "008fd3bc-0539-40fb-ab19-99e848e3ff29")
+		)
+		(pin "8"
+			(uuid "c70f09a9-a4d7-4e42-a669-6f3cb3f2a25e")
+		)
+		(pin "39"
+			(uuid "35afaacb-6e06-431d-9a98-d604a1799ade")
+		)
+		(instances
+			(project ""
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InputModule:W25Q16JVUX")
 		(at 57.15 62.23 0)
 		(unit 1)
@@ -14530,7 +15072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16Mb Serial Flash Memory, Standard/Dual/Quad SPI, USON-8"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -14664,7 +15206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 29.21 59.69 0)
 			(effects
 				(font
@@ -14776,7 +15318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 95.25 176.53 0)
 			(effects
 				(font
@@ -14888,7 +15430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 198.12 151.13 0)
 			(effects
 				(font
@@ -14993,7 +15535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 29.21 0)
 			(effects
 				(font
@@ -15002,7 +15544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 132.08 29.21 0)
 			(effects
 				(font
@@ -15114,7 +15656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 53.34 111.76 0)
 			(effects
 				(font
@@ -15207,7 +15749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 132.08 22.86 0)
 			(effects
 				(font
@@ -15273,7 +15815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 147.32 176.53 0)
 			(effects
 				(font
@@ -15337,7 +15879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 198.12 161.29 0)
 			(effects
 				(font
@@ -15407,417 +15949,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a867704d-b58d-4b2e-be5d-5db51a42676a")
-		(property "Reference" "#PWR035"
-			(at 261.62 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3de27060-c97c-4efe-8575-72943f9aaf79")
-		)
-		(instances
-			(project "MicrocontrollerInputModule"
-				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "20655-045E-01:20655-045E-01")
-		(at 299.72 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8bfcdba-a153-4aea-b7f6-bb88d6fb7a88")
-		(property "Reference" "J3"
-			(at 297.18 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPEX 20655-045E-01"
-			(at 283.21 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "20655-045E-01:0.3K-HX-45PWB"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "\n0.3 mm pitch, Horizontal mating, Backflip, Mechanical lock, Hold down, with long actuator, (Height = 0.9 mm) connector,MINIFLEX, FPC\n"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=eda"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=snap"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20655-045E-01"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "I-Pex"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919534"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "5378-20655-045E-01CT-ND"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Alt" "missing"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "56b48af4-0c8c-4e70-9c15-ae1a161908a7")
-		)
-		(pin "41"
-			(uuid "14f5e1d0-239b-473b-a29a-cb88e68a5e4a")
-		)
-		(pin "36"
-			(uuid "32ca3cd2-faf0-4da3-9d30-641b4138db33")
-		)
-		(pin "32"
-			(uuid "289d477b-8493-468e-935a-9cef7d83eec7")
-		)
-		(pin "29"
-			(uuid "1081d3a5-0e9f-4aed-a4c1-3f4e97c051ab")
-		)
-		(pin "S1"
-			(uuid "50c13562-2642-4235-a4a6-6c2ecc739f7f")
-		)
-		(pin "LOCK2"
-			(uuid "4e1b0d29-92cf-40d5-9307-a3919cf15d47")
-		)
-		(pin "34"
-			(uuid "2cdf41f3-e9d8-45c3-9692-847247019977")
-		)
-		(pin "21"
-			(uuid "9e8fc6f1-a2ac-441f-91c3-3d7108e869fb")
-		)
-		(pin "5"
-			(uuid "8bdf0188-7132-4917-af4a-83abf2770d13")
-		)
-		(pin "35"
-			(uuid "fbaabfa5-0eba-45e5-8613-6cbe4f3e3d3b")
-		)
-		(pin "33"
-			(uuid "e2f255a7-bdca-4485-b793-86833c5a9822")
-		)
-		(pin "28"
-			(uuid "860599e8-89be-474d-b7f7-a4e9ff4bc336")
-		)
-		(pin "15"
-			(uuid "f8eac355-40fb-4b02-9a49-28c4ae14438b")
-		)
-		(pin "12"
-			(uuid "44829314-0fcf-4733-8189-efa8a1ba979e")
-		)
-		(pin "10"
-			(uuid "1a08f846-9bbe-4bc6-a070-64245e984fc7")
-		)
-		(pin "11"
-			(uuid "5a53097a-7dbc-46a8-a965-2117774b3606")
-		)
-		(pin "1"
-			(uuid "778b2dce-d344-4dbe-a122-c1b9152706ab")
-		)
-		(pin "14"
-			(uuid "023b8ba2-c1d4-46ba-9f9e-4be07219ac16")
-		)
-		(pin "13"
-			(uuid "ee6a3be1-af18-4c83-9121-bdc4cc4169ef")
-		)
-		(pin "23"
-			(uuid "546f6b10-8199-466c-876f-a61eb3f86740")
-		)
-		(pin "42"
-			(uuid "3f9dbeb5-4538-4167-9837-302aa5e25038")
-		)
-		(pin "16"
-			(uuid "b3ba4716-61e1-47fa-b241-7437d117018f")
-		)
-		(pin "S3"
-			(uuid "eafc4145-3b72-4b63-b99f-945c030d2d91")
-		)
-		(pin "4"
-			(uuid "39da1ed4-e424-42bd-b37d-4d3e421c3365")
-		)
-		(pin "26"
-			(uuid "e1263d92-defd-442d-91a4-9af47814fd61")
-		)
-		(pin "44"
-			(uuid "fdfe5d55-a17e-4eb6-b503-d8519af681a8")
-		)
-		(pin "24"
-			(uuid "c4003e45-5f19-48e0-862b-fe751b6dad7d")
-		)
-		(pin "25"
-			(uuid "69029ec2-14bd-46fd-b08e-fced16b67327")
-		)
-		(pin "27"
-			(uuid "3d5d9f03-6dfb-4afb-8e97-58e43c169dea")
-		)
-		(pin "40"
-			(uuid "c255c20c-ec9c-4371-ab17-c3e7ab4d5a7d")
-		)
-		(pin "43"
-			(uuid "609dc122-6a06-4c3d-a0c3-94a67c8a103e")
-		)
-		(pin "17"
-			(uuid "8ceec9c1-f620-4438-8ecb-9520e27636f4")
-		)
-		(pin "S4"
-			(uuid "38a2a848-767a-40b4-a06b-438370de8c56")
-		)
-		(pin "18"
-			(uuid "d6658090-f17a-470a-99fa-2d1f4ce786bc")
-		)
-		(pin "S2"
-			(uuid "a9777d78-4a94-4f86-9f70-016881d66c67")
-		)
-		(pin "20"
-			(uuid "7f80da1c-a3d0-4976-b2e2-328757777c19")
-		)
-		(pin "2"
-			(uuid "4fa3fa1c-45fa-4917-ae4a-91441b064b3d")
-		)
-		(pin "19"
-			(uuid "1e4a2680-5980-42a0-ae67-addaa1f1211b")
-		)
-		(pin "37"
-			(uuid "c3d60aad-1994-4077-a381-31efd47ad261")
-		)
-		(pin "38"
-			(uuid "38070f01-0966-42ab-8c4c-45458b538e14")
-		)
-		(pin "45"
-			(uuid "27cc4339-13ae-48cd-99d2-0cf4f107aad4")
-		)
-		(pin "39"
-			(uuid "b5f01747-6113-4a5f-99be-e8be26e6efbe")
-		)
-		(pin "9"
-			(uuid "fc1e5049-5fbc-432e-9588-7deecf10fa44")
-		)
-		(pin "8"
-			(uuid "b20c3e0a-f261-4171-ae73-30e4001f09d5")
-		)
-		(pin "LOCK1"
-			(uuid "c4f839b8-b9ee-46bd-b624-c7a80c17a94f")
-		)
-		(pin "3"
-			(uuid "daba4b72-7111-4fcc-9d55-0614e799b57a")
-		)
-		(pin "31"
-			(uuid "106266ba-e34e-471a-b208-3f3e32a9779e")
-		)
-		(pin "30"
-			(uuid "c13cd1c2-9497-4ebb-8cf5-5faf6905c6ff")
-		)
-		(pin "22"
-			(uuid "a16a11fd-06cc-4f20-ab64-1ed1e40b2210")
-		)
-		(pin "7"
-			(uuid "7071d53b-6f77-4e48-9cb7-cedaeb7483e5")
-		)
-		(instances
-			(project "MicrocontrollerInputModule"
-				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 132.08 41.91 0)
 		(unit 1)
@@ -15862,7 +15993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -15967,7 +16098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -15976,7 +16107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 241.3 118.11 0)
 			(effects
 				(font
@@ -16090,7 +16221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 16.51 160.02 0)
 			(effects
 				(font
@@ -16189,7 +16320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 243.84 102.87 0)
 			(effects
 				(font
@@ -16198,7 +16329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 243.84 102.87 0)
 			(effects
 				(font
@@ -16312,7 +16443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 41.91 0)
 			(effects
 				(font
@@ -16417,7 +16548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 172.72 29.21 0)
 			(effects
 				(font
@@ -16426,7 +16557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 29.21 0)
 			(effects
 				(font
@@ -16538,7 +16669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 111.76 115.57 0)
 			(effects
 				(font
@@ -16652,7 +16783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 179.07 0)
 			(effects
 				(font
@@ -16718,7 +16849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 167.64 176.53 0)
 			(effects
 				(font
@@ -16741,15 +16872,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 242.57 143.51 90)
+		(at 242.57 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be8ddf7b-d7b7-4afe-a4e1-aca85d01197f")
-		(property "Reference" "C21"
-			(at 243.84 137.16 90)
+		(uuid "bd652d49-e551-456b-9f45-28ac132c69ee")
+		(property "Reference" "C23"
+			(at 234.95 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16757,8 +16888,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 243.84 139.7 90)
+		(property "Value" "10uF"
+			(at 241.046 147.066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16766,8 +16897,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 246.38 142.5448 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 147.6248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16776,7 +16907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 143.51 0)
+			(at 242.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16784,8 +16915,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 242.57 143.51 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16793,17 +16924,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16780"
-			(at 242.57 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1852-1-ND"
-			(at 242.57 143.51 0)
+		(property "LCSC" "C96446"
+			(at 242.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +16934,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 242.57 143.51 0)
+			(at 242.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16820,8 +16942,17 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A476MQYNNNE"
-			(at 242.57 143.51 0)
+		(property "MP" "CL10A106MA8NRNC"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 242.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16830,7 +16961,7 @@
 			)
 		)
 		(property "LCSC Alt" ""
-			(at 242.57 143.51 0)
+			(at 242.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16839,15 +16970,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4987daf1-ddf7-486b-ae5c-1e7ec02d950d")
+			(uuid "4b951ef6-2586-4ea1-ab6d-b790eacb23be")
 		)
 		(pin "2"
-			(uuid "576aaebe-3555-4d52-98f8-6fecf22ab4a4")
+			(uuid "54617ef6-b1da-4a83-b134-a0343f4fcd6e")
 		)
 		(instances
 			(project "MicrocontrollerInputModule"
 				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16896,7 +17027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -17008,7 +17139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 95.25 157.48 0)
 			(effects
 				(font
@@ -17120,7 +17251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 95.25 182.88 0)
 			(effects
 				(font
@@ -17191,16 +17322,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 146.05 0)
+		(at 237.49 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2208937-16a6-4e70-b44e-ca065bede262")
 		(property "Reference" "#PWR030"
-			(at 237.49 152.4 0)
+			(at 237.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +17339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 151.13 0)
+			(at 237.49 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17217,7 +17347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 146.05 0)
+			(at 237.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17226,7 +17356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 146.05 0)
+			(at 237.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17234,8 +17364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 237.49 146.05 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17300,7 +17430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 85.09 121.92 0)
 			(effects
 				(font
@@ -17368,7 +17498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-bit I/O expander, SPI, interrupts, w pull-ups, QFN-28"
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -17563,7 +17693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 147.32 0)
 			(effects
 				(font
@@ -17629,7 +17759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 87.63 148.59 0)
 			(effects
 				(font
@@ -17693,7 +17823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 203.2 69.85 0)
 			(effects
 				(font
@@ -17777,7 +17907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 195.58 29.21 0)
 			(effects
 				(font
@@ -17786,7 +17916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 195.58 29.21 0)
 			(effects
 				(font
@@ -17900,7 +18030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 16.51 175.26 0)
 			(effects
 				(font
@@ -17990,7 +18120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 246.38 116.84 0)
 			(effects
 				(font
@@ -18056,7 +18186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 132.08 171.45 0)
 			(effects
 				(font
@@ -18162,7 +18292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 66.04 38.1 0)
 			(effects
 				(font
@@ -18171,7 +18301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 66.04 38.1 0)
 			(effects
 				(font
@@ -18283,7 +18413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 95.25 163.83 0)
 			(effects
 				(font
@@ -18388,7 +18518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -18397,7 +18527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -18509,7 +18639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 92.71 115.57 0)
 			(effects
 				(font
@@ -18623,7 +18753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -18689,7 +18819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -18746,7 +18876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -18755,7 +18885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -18825,352 +18955,6 @@
 		)
 	)
 	(symbol
-		(lib_id "20655-045E-01:20655-045E-01")
-		(at 278.13 92.71 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ed06c51f-8227-4b3c-84b7-cc3f490917b0")
-		(property "Reference" "J2"
-			(at 275.59 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPEX 20655-045E-01"
-			(at 261.62 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "20655-045E-01:IPEX_20655-045E-01"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "\n0.3 mm pitch, Horizontal mating, Backflip, Mechanical lock, Hold down, with long actuator, (Height = 0.9 mm) connector,MINIFLEX, FPC\n"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=eda"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20655-045E-01/I-PEX/view-part/?ref=snap"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20655-045E-01"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "I-Pex"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919534"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "5378-20655-045E-01CT-ND"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Alt" "missing"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2ed6309c-3139-4965-881e-1b5c8b6493ad")
-		)
-		(pin "41"
-			(uuid "4af0b88c-ddeb-4bc6-9ae7-119c17bb9722")
-		)
-		(pin "36"
-			(uuid "27f47c91-be47-4940-971b-72af8c0202ce")
-		)
-		(pin "32"
-			(uuid "e1412736-59f6-4570-a809-18ee26c2c2ff")
-		)
-		(pin "29"
-			(uuid "8a089b36-e87e-4e75-94bb-cd2a0c308fa4")
-		)
-		(pin "S1"
-			(uuid "3e742155-1877-40ca-b980-70fb5c6820e3")
-		)
-		(pin "LOCK2"
-			(uuid "17c20b25-3983-4581-a212-de8a7aada781")
-		)
-		(pin "34"
-			(uuid "a0d1b087-5a41-4332-92f6-d8b5617ba887")
-		)
-		(pin "21"
-			(uuid "e737b416-7088-429e-ac36-ce1c8c51453a")
-		)
-		(pin "5"
-			(uuid "0c1dc41f-be7b-4468-8e6b-51061ffbcaea")
-		)
-		(pin "35"
-			(uuid "408d4eb3-d3b5-40ab-a13e-d09c671cfce9")
-		)
-		(pin "33"
-			(uuid "5bfc1c21-240d-4679-9a47-d42746f2d5cb")
-		)
-		(pin "28"
-			(uuid "06b0298e-dbb2-4c27-859b-863e99a939e8")
-		)
-		(pin "15"
-			(uuid "85cd98b6-39a0-413d-a47a-8cdacba37c9b")
-		)
-		(pin "12"
-			(uuid "dd8b137d-8dba-4150-afd1-8832253078be")
-		)
-		(pin "10"
-			(uuid "b5af12c8-068a-4236-b8dc-a74f677497e5")
-		)
-		(pin "11"
-			(uuid "2fb11fba-2b36-4738-8f83-591d02546a52")
-		)
-		(pin "1"
-			(uuid "cba347cd-0c00-4710-8786-27c87ccfb09d")
-		)
-		(pin "14"
-			(uuid "b48d525a-c0ba-4dfa-965b-11380ffae80e")
-		)
-		(pin "13"
-			(uuid "e71046a7-6d3e-46bd-805a-d9d8b0b737e7")
-		)
-		(pin "23"
-			(uuid "c7c58b54-1b7c-4048-bcbe-33aa552929a9")
-		)
-		(pin "42"
-			(uuid "59502082-9c6d-4629-9867-e2b4dd4af777")
-		)
-		(pin "16"
-			(uuid "0217c4dd-d507-4957-a54c-75c882e53f78")
-		)
-		(pin "S3"
-			(uuid "d7693beb-8405-466d-a618-22de2318d0a9")
-		)
-		(pin "4"
-			(uuid "8e688309-03ef-4ac4-bc45-26aa6b2c0a0b")
-		)
-		(pin "26"
-			(uuid "512ca537-8e12-4019-bd0e-69465c44cbbe")
-		)
-		(pin "44"
-			(uuid "60a96f86-9fa9-4a1f-9e79-49e25b01423c")
-		)
-		(pin "24"
-			(uuid "b9002800-39c2-4405-b803-8f311ba2876e")
-		)
-		(pin "25"
-			(uuid "a703f780-1e11-4014-b397-2419222f4813")
-		)
-		(pin "27"
-			(uuid "3a06f1de-9e8c-42aa-bfa8-f314113a6161")
-		)
-		(pin "40"
-			(uuid "84134dde-fd51-4c4f-ad6d-20e6ede434e0")
-		)
-		(pin "43"
-			(uuid "2f72a2e3-3997-4ff2-8f5c-ba13810179c0")
-		)
-		(pin "17"
-			(uuid "3d7e2ee6-ff01-4439-8992-2552ff9d78a3")
-		)
-		(pin "S4"
-			(uuid "dcaa65b7-1ac0-4cd6-9413-1c3f5d43d641")
-		)
-		(pin "18"
-			(uuid "baaf22c5-6308-4ab7-adb7-5aabe009f0be")
-		)
-		(pin "S2"
-			(uuid "adde9441-48da-4d07-a9d7-2db08c152891")
-		)
-		(pin "20"
-			(uuid "3172a8ce-9100-43c3-87a3-0a521bfa1774")
-		)
-		(pin "2"
-			(uuid "01a2f4b5-82f8-4aea-96d6-6f8507911805")
-		)
-		(pin "19"
-			(uuid "78322293-658a-4670-9fb1-5b9f232a2805")
-		)
-		(pin "37"
-			(uuid "8989fe20-298f-4f25-a4a3-872526074e02")
-		)
-		(pin "38"
-			(uuid "fd0b327c-60ec-461a-8cf2-167e30b92b5c")
-		)
-		(pin "45"
-			(uuid "93a61c25-2bf7-440e-8616-d3b7e4f2aba4")
-		)
-		(pin "39"
-			(uuid "fd53c4f6-2395-4049-a832-665813b7cd05")
-		)
-		(pin "9"
-			(uuid "fd70492e-71b4-45a1-9072-ca50e770f3a1")
-		)
-		(pin "8"
-			(uuid "f7465edb-770a-49b0-87cf-94aeeecd1bb6")
-		)
-		(pin "LOCK1"
-			(uuid "79a133f0-db27-4543-8208-524f455d06bd")
-		)
-		(pin "3"
-			(uuid "24f9baf4-f997-4b7c-9e58-ec1cdd016f9d")
-		)
-		(pin "31"
-			(uuid "aad718fb-2e66-46e8-b373-b7c203dd0069")
-		)
-		(pin "30"
-			(uuid "7871693b-fc46-482c-9a06-4fc40a3c62a8")
-		)
-		(pin "22"
-			(uuid "f61bbc32-8d37-428a-92ad-df008b93d803")
-		)
-		(pin "7"
-			(uuid "75cfba47-947a-47c4-9f02-dcb2968951dc")
-		)
-		(instances
-			(project "MicrocontrollerInputModule"
-				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 16.51 165.1 0)
 		(unit 1)
@@ -19215,7 +18999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 16.51 165.1 0)
 			(effects
 				(font
@@ -19321,7 +19105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 198.12 146.05 0)
 			(effects
 				(font
@@ -19426,7 +19210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "~"
 			(at 120.65 29.21 0)
 			(effects
 				(font
@@ -19435,7 +19219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 29.21 0)
 			(effects
 				(font
@@ -19549,7 +19333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 238.76 104.14 0)
 			(effects
 				(font
