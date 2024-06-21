@@ -12212,7 +12212,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 16.51 170.18 0)
+		(at 16.51 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12220,7 +12220,7 @@
 		(dnp no)
 		(uuid "330bcba4-4c8c-49bd-aff7-49c6c80b3248")
 		(property "Reference" "H3"
-			(at 19.05 168.91 0)
+			(at 19.05 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +12229,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 19.05 171.45 0)
+			(at 19.05 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12238,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 16.51 170.18 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,7 +12247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 170.18 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,7 +12256,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 16.51 170.18 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,7 +12265,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 16.51 170.18 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12274,7 +12274,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 16.51 170.18 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,7 +12283,7 @@
 			)
 		)
 		(property "LCSC Alt" ""
-			(at 16.51 170.18 0)
+			(at 16.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15028,6 +15028,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ff07b93-48ca-43df-bccd-f29d53f026d5")
+		(property "Reference" "H6"
+			(at 19.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 19.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "20655-045E-01:JLCPCB Tooling Hole"
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 16.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InputModule:W25Q16JVUX")
 		(at 57.15 62.23 0)
 		(unit 1)
@@ -15771,6 +15861,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a152644e-a3a1-48a2-8fef-1082546bb757")
+		(property "Reference" "H8"
+			(at 19.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 19.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "20655-045E-01:JLCPCB Tooling Hole"
+			(at 16.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 16.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 16.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 16.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 147.32 176.53 0)
 		(unit 1)
@@ -15943,6 +16123,96 @@
 			(project "MicrocontrollerInputModule"
 				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a86f94c1-8342-4a96-8ef2-bfb65d5dee4d")
+		(property "Reference" "H7"
+			(at 19.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "20655-045E-01:JLCPCB Tooling Hole"
+			(at 16.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 16.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 16.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 16.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -16178,7 +16448,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 16.51 160.02 0)
+		(at 16.51 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16186,7 +16456,7 @@
 		(dnp yes)
 		(uuid "aafcfa64-9217-4e7d-bd3e-24d843465741")
 		(property "Reference" "H1"
-			(at 19.05 158.75 0)
+			(at 19.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16195,7 +16465,7 @@
 			)
 		)
 		(property "Value" "24929"
-			(at 19.05 161.29 0)
+			(at 19.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16204,7 +16474,7 @@
 			)
 		)
 		(property "Footprint" "InputModule:MountingHole_3.7mm_Pad_24929"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,7 +16483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16222,7 +16492,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16231,7 +16501,7 @@
 			)
 		)
 		(property "LCSC" "C5354888"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +16510,7 @@
 			)
 		)
 		(property "Digikey" "36-24929CT-ND"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16519,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16258,7 +16528,7 @@
 			)
 		)
 		(property "MP" "24929"
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16267,7 +16537,7 @@
 			)
 		)
 		(property "LCSC Alt" ""
-			(at 16.51 160.02 0)
+			(at 16.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17987,7 +18257,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 16.51 175.26 0)
+		(at 16.51 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17995,7 +18265,7 @@
 		(dnp no)
 		(uuid "cd315cf5-1f85-421c-afeb-e50ca6f318f8")
 		(property "Reference" "H4"
-			(at 19.05 173.99 0)
+			(at 19.05 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18004,7 +18274,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 19.05 176.53 0)
+			(at 19.05 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18013,7 +18283,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 16.51 175.26 0)
+			(at 16.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,7 +18292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 175.26 0)
+			(at 16.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18031,7 +18301,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 16.51 175.26 0)
+			(at 16.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18040,7 +18310,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 16.51 175.26 0)
+			(at 16.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18049,7 +18319,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 16.51 175.26 0)
+			(at 16.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18058,7 +18328,7 @@
 			)
 		)
 		(property "LCSC Alt" ""
-			(at 16.51 175.26 0)
+			(at 16.51 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18956,7 +19226,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 16.51 165.1 0)
+		(at 16.51 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18964,7 +19234,7 @@
 		(dnp yes)
 		(uuid "edf63103-5ffc-426f-aaf2-ec1fd50a83d3")
 		(property "Reference" "H2"
-			(at 19.05 163.83 0)
+			(at 19.05 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18973,7 +19243,7 @@
 			)
 		)
 		(property "Value" "24929"
-			(at 19.05 166.37 0)
+			(at 19.05 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18982,7 +19252,7 @@
 			)
 		)
 		(property "Footprint" "InputModule:MountingHole_3.7mm_Pad_24929"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18991,7 +19261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,7 +19270,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19009,7 +19279,7 @@
 			)
 		)
 		(property "LCSC" "C5354888"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19288,7 @@
 			)
 		)
 		(property "Digikey" "36-24929CT-ND"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19027,7 +19297,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19036,7 +19306,7 @@
 			)
 		)
 		(property "MP" "24929"
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19045,7 +19315,7 @@
 			)
 		)
 		(property "LCSC Alt" ""
-			(at 16.51 165.1 0)
+			(at 16.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19349,6 +19619,96 @@
 			(project "MicrocontrollerInputModule"
 				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd540d28-b39b-41cb-8b7c-ea7156d1007b")
+		(property "Reference" "H5"
+			(at 19.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tooling Hole"
+			(at 19.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "20655-045E-01:JLCPCB Tooling Hole"
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MicrocontrollerInputModule"
+				(path "/e1225fe3-1add-4bf0-8592-1d94311392e6"
+					(reference "H5")
 					(unit 1)
 				)
 			)
