@@ -7348,6 +7348,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/InputModule.pretty/USON-8_L2-W3-H0.6X0.5P.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
