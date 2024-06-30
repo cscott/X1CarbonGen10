@@ -3,7 +3,7 @@
 ![image](MicrocontrollerInputModule-Bot.png)
 
 This module is based on the "Microcontroller Input Module" example
-from https://github.com/FrameworkComputer/InputModules which in
+from https://github.com/FrameworkComputer/InputModules which in turn
 is based on the Adafruit Feather RP2040 (https://www.adafruit.com/product/4884).
 
 More discussion of this project, and of replacement keyboards for
